@@ -15,3 +15,11 @@ I started by creating my file structure in my repository folder. I then created 
 
 
 ##### sources 
+
+https://www.studytonight.com/post/building-a-password-generator-with-javascript
+
+I really liked how they incorporated the options for length, numbers and letters in the box that generated the password. So I added that option.
+
+https://www.w3schools.com/js/js_htmldom.asp 
+
+I needed to really understand how the javascript is acting with the html.
