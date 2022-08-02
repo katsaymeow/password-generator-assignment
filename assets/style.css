@@ -32,7 +32,11 @@ header {
 
 .options {
   text-align: center;
-  color: red;
+  color: rgb(255, 0, 81);
+}
+
+#length {
+  width: 20px;
 }
 
 .card {
