@@ -7,15 +7,12 @@ var symbols = ["!", "@", "#", "$", "%", "&"];
 var globalCharSet = [];
 var password = "";
 
-// function writePassword() {
-    
-// }
 
 function promptTheUser(e) {
     if(e) {
         e.preventDefault()
     }
-    // console.log("hey im here")
+   
     var wantLower = window.confirm("Will the Little letters do?");
     var wantUpper = window.confirm("UPPER ME !!!!");
     var wantSym = window.confirm("*%#($!)# please?");
@@ -34,11 +31,11 @@ function promptTheUser(e) {
      var password = "" ;
         for (var i=0; i< UserPassLength; i++) {
             password += globalCharSet[Math.floor(Math.random()*globalCharSet.length)];
-        } console.log(password) 
-        return password.value = passwordText.innerText     
+        }  
+        return passwordText.value = password   
 }
         
 
 
-    // console.log(promptTheUser(password))
+   
 generateBtn.addEventListener("click", promptTheUser); 
