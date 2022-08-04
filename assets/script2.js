@@ -30,18 +30,14 @@ function promptTheUser(e) {
         globalCharSet = globalCharSet.concat(uppercase);
         globalCharSet = globalCharSet.concat(symbols);
         globalCharSet = globalCharSet.concat(numbers);
-
+    }
      var password = "" ;
         for (var i=0; i< UserPassLength; i++) {
             password += globalCharSet[Math.floor(Math.random()*globalCharSet.length)];
-            return password.value = passwordText.innerText
-        }
-        let writePassword 
-            password.value = passwordText.innerText
-        
-    }
+        } console.log(password) 
+        return password.value = passwordText.innerText     
 }
-        console.log(password)
+        
 
 
     // console.log(promptTheUser(password))
