@@ -27,13 +27,7 @@ console.log(passwordText)
 //generate is the button id
 /* input boxes values password funtions if, then */
 // Write password to the #password input
-function writePassword() {
-  var password = generatePassword();
-  var passwordText = document.querySelector("#password");
-  //this will generate the password in the textarea.
-  passwordText.value = password;
-}
-console.log(writePassword)
+
 // validate var
 //generate password with criteria
 
