@@ -3,11 +3,12 @@
 ## Intentions of this challenge
 
 The purpose of this challenge is to create a password generator that will allow the user to generate a password that fits acceptance criteria. The interface comply with UI standards of accessibility and flexible screen size. 
+[My deployed page.](https://katsaymeow.github.io/password-generator-assignment/)
 
-https://katsaymeow.github.io/password-generator-assignment/ 
+***
 ![screenshot-of-deployment](./assets/img/screenshot-of-deployment.png)
 
-#### Steps to take to complete the code:
+### **Steps to take to complete the code:**
 *** 
 I started by creating my file structure in my repository folder. I then created my repository and pushed my repository. Following this step in the future will help with file structure. 
 
@@ -22,8 +23,8 @@ I then needed to create the function to run a random, user defined password. I a
 
 ![creating-the-function](./assets/img/creating-the%20function.png)
 ***
-## Author's note:
-I have humor, so "Z" = Zed and "x" = xx. Just for fun 😃
+>## Author's note:
+>I have humor, so "Z" = >Zed and "x" = xx. Just for fun 😃
 ***
 
 ## Conclusion
