@@ -55,7 +55,7 @@ header {
   content: " ";
   display: block;
   width: 100%;
-  background: #bed6ed;
+  background: #a1c9ef;
   height: 2px;
 }
 
@@ -135,7 +135,8 @@ button[disabled] {
   }
 
   #password {
-    font-size: 1rem;
+    font-size: 2rem;
+    padding-top: 15%;
   }
 }
 
